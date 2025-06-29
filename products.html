@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - EcoNova Bio Plastic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>EcoNova</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link active">Products</a></li>
+                <li><a href="prototypes.html" class="nav-link">Prototypes</a></li>
+                <li><a href="sustainability.html" class="nav-link">Sustainability</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Innovative bio-plastic solutions for every industry</p>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-3d">
+                        <canvas class="product-canvas" data-product="packaging"></canvas>
+                    </div>
+                    <h3>EcoPackage</h3>
+                    <p>Biodegradable packaging solutions for food and consumer goods</p>
+                    <ul>
+                        <li>Compostable in 90 days</li>
+                        <li>Food-safe certified</li>
+                        <li>Water-resistant coating</li>
+                        <li>Temperature stable up to 120°C</li>
+                        <li>Customizable thickness and colors</li>
+                    </ul>
+                    <div class="product-specs">
+                        <h4>Technical Specifications</h4>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Tensile Strength:</span>
+                                <span class="spec-value">25-35 MPa</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Biodegradation:</span>
+                                <span class="spec-value">90 days (industrial compost)</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Thickness Range:</span>
+                                <span class="spec-value">50-500 microns</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-3d">
+                        <canvas class="product-canvas" data-product="bottles"></canvas>
+                    </div>
+                    <h3>EcoBottle</h3>
+                    <p>Sustainable bottle solutions for beverages and personal care</p>
+                    <ul>
+                        <li>Marine biodegradable</li>
+                        <li>Crystal clear finish</li>
+                        <li>Heat resistant up to 80°C</li>
+                        <li>Chemical resistant</li>
+                        <li>FDA approved for food contact</li>
+                    </ul>
+                    <div class="product-specs">
+                        <h4>Technical Specifications</h4>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Capacity Range:</span>
+                                <span class="spec-value">50ml - 2L</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Wall Thickness:</span>
+                                <span class="spec-value">1-3mm</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Clarity:</span>
+                                <span class="spec-value">>90% light transmission</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-3d">
+                        <canvas class="product-canvas" data-product="films"></canvas>
+                    </div>
+                    <h3>EcoFilm</h3>
+                    <p>Flexible bio-plastic films for agricultural and industrial use</p>
+                    <ul>
+                        <li>UV stabilized</li>
+                        <li>Tear resistant</li>
+                        <li>Soil enriching decomposition</li>
+                        <li>Printable surface</li>
+                        <li>Flexible down to -20°C</li>
+                    </ul>
+                    <div class="product-specs">
+                        <h4>Technical Specifications</h4>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <span class="spec-label">Elongation:</span>
+                                <span class="spec-value">300-500%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">UV Resistance:</span>
+                                <span class="spec-value">12+ months outdoor</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Width:</span>
+                                <span class="spec-value">Up to 3 meters</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>EcoNova</h3>
+                    <p>Sustainable bio-plastic solutions for a better tomorrow.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Products</h4>
+                        <a href="products.html">EcoPackage</a>
+                        <a href="products.html">EcoBottle</a>
+                        <a href="products.html">EcoFilm</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="about.html">About Us</a>
+                        <a href="sustainability.html">Sustainability</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Resources</h4>
+                        <a href="prototypes.html">Prototypes</a>
+                        <a href="#">Case Studies</a>
+                        <a href="#">News</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoNova Bio Plastic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability - EcoNova Bio Plastic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="sustainability.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>EcoNova</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="prototypes.html" class="nav-link">Prototypes</a></li>
+                <li><a href="sustainability.html" class="nav-link active">Sustainability</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Commitment to Sustainability</h1>
+            <p>Building a circular economy through innovative bio-plastic solutions</p>
+        </div>
+    </section>
+
+    <section class="sustainability">
+        <div class="container">
+            <div class="sustainability-content">
+                <div class="sustainability-text">
+                    <h2>Environmental Impact</h2>
+                    <p>Every EcoNova product is designed with the planet in mind. Our bio-plastics are derived from renewable resources and engineered to return safely to the earth.</p>
+                    <div class="sustainability-features">
+                        <div class="feature">
+                            <div class="feature-icon">🌱</div>
+                            <h4>Plant-Based Materials</h4>
+                            <p>Made from renewable agricultural waste and biopolymers</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">♻️</div>
+                            <h4>Circular Economy</h4>
+                            <p>Designed for complete biodegradation and soil enrichment</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🌍</div>
+                            <h4>Carbon Negative</h4>
+                            <p>Production process captures more CO2 than it produces</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sustainability-visual">
+                    <canvas id="sustainability-canvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="impact-metrics">
+        <div class="container">
+            <h2>Our Environmental Impact</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon">🌿</div>
+                    <div class="metric-number">2.5M</div>
+                    <div class="metric-label">Tons of CO2 Saved</div>
+                    <p>Through our bio-plastic alternatives</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">🗑️</div>
+                    <div class="metric-number">15M</div>
+                    <div class="metric-label">Plastic Items Replaced</div>
+                    <p>With biodegradable alternatives</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">🌊</div>
+                    <div class="metric-number">500K</div>
+                    <div class="metric-label">Liters of Oil Saved</div>
+                    <p>By using plant-based materials</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">⚡</div>
+                    <div class="metric-number">40%</div>
+                    <div class="metric-label">Less Energy Used</div>
+                    <p>Compared to traditional plastics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lifecycle">
+        <div class="container">
+            <h2>Product Lifecycle</h2>
+            <div class="lifecycle-diagram">
+                <div class="lifecycle-step">
+                    <div class="step-icon">🌾</div>
+                    <h4>Raw Materials</h4>
+                    <p>Sourced from agricultural waste and renewable biomass</p>
+                </div>
+                <div class="lifecycle-arrow">→</div>
+                <div class="lifecycle-step">
+                    <div class="step-icon">🏭</div>
+                    <h4>Production</h4>
+                    <p>Low-energy manufacturing process with minimal emissions</p>
+                </div>
+                <div class="lifecycle-arrow">→</div>
+                <div class="lifecycle-step">
+                    <div class="step-icon">📦</div>
+                    <h4>Use Phase</h4>
+                    <p>Performs like traditional plastic with same functionality</p>
+                </div>
+                <div class="lifecycle-arrow">→</div>
+                <div class="lifecycle-step">
+                    <div class="step-icon">🌱</div>
+                    <h4>End of Life</h4>
+                    <p>Biodegrades naturally, enriching soil with nutrients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certifications">
+        <div class="container">
+            <h2>Certifications & Standards</h2>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <h4>ASTM D6400</h4>
+                    <p>Standard for compostable plastics</p>
+                </div>
+                <div class="cert-item">
+                    <h4>EN 13432</h4>
+                    <p>European standard for biodegradable packaging</p>
+                </div>
+                <div class="cert-item">
+                    <h4>OK Compost HOME</h4>
+                    <p>Certified for home composting</p>
+                </div>
+                <div class="cert-item">
+                    <h4>BPI Certified</h4>
+                    <p>Biodegradable Products Institute approved</p>
+                </div>
+                <div class="cert-item">
+                    <h4>FDA Approved</h4>
+                    <p>Safe for food contact applications</p>
+                </div>
+                <div class="cert-item">
+                    <h4>ISO 17088</h4>
+                    <p>International biodegradability standard</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>EcoNova</h3>
+                    <p>Sustainable bio-plastic solutions for a better tomorrow.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Products</h4>
+                        <a href="products.html">EcoPackage</a>
+                        <a href="products.html">EcoBottle</a>
+                        <a href="products.html">EcoFilm</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="about.html">About Us</a>
+                        <a href="sustainability.html">Sustainability</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Resources</h4>
+                        <a href="prototypes.html">Prototypes</a>
+                        <a href="#">Case Studies</a>
+                        <a href="#">News</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoNova Bio Plastic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
